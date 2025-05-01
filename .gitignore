@@ -1,0 +1,38 @@
+# Dossiers Visual Studio à ignorer
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Binaires et objets compilés
+*.obj
+*.exe
+*.dll
+*.pdb
+*.idb
+*.class
+
+# Build outputs
+/Debug/
+/Release/
+/x64/
+/ipch/
+/*.log
+
+# Autres fichiers temporaires
+*.tmp
+*.log
+*.tlog
+*.cache
+*.db
+*.sdf
+*.opensdf
+*.VC.db
+*.vsp
+
+# Fichiers générés automatiquement
+*.ncb
+*.sbr
+*.sdf
+*.opendb
