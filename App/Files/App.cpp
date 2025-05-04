@@ -19,10 +19,12 @@ struct PersonnelInfo
     int Age;
     string City;
     string Country;
-    enum Gender;
     bool Married;
     ProInfo pro;
+    Gender gender;
+    MaritalStatus maritalstatus;
 
+   
 };
 
 
@@ -37,14 +39,13 @@ int main()
     Person1.Country = "France";
     Person1.pro.MonthlySalary = 1000;
     Person1.pro.YearlySalary = 1000 * 12;
-     
+    Person1.gender = Male ;
+    Person1.maritalstatus = Single;
     
-    MaritalStatus status;
-    Gender myGender;
+    /*
+    gender = Gender::Male;
 
-    myGender = Gender::Male;
-
-    status = MaritalStatus::Single;
+    status = MaritalStatus::Single;*/
 
     cout << "******************************** " << endl;
 
@@ -55,8 +56,8 @@ int main()
    
     cout << "MonthlySalary: " << Person1.pro.MonthlySalary << endl;
     cout << "YearlySalary: " << Person1.pro.YearlySalary << endl;
-    cout << "Gender: " << myGender << endl;
-    cout << "Married: " << status << endl;
+    cout << "Gender: " << Person1.gender    << endl;
+    cout << "Married: " << Person1.maritalstatus << endl;
 
     cout << "********************************" << endl;
 
