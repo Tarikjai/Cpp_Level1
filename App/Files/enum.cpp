@@ -3,8 +3,8 @@
 #include <iostream>
 using namespace std;
 
-enum MaritalStatus { Single, Married };
-enum Gender { Female, Male };
+enum enMaritalStatus { Single, Married };
+enum enGender { Female, Male };
 
 struct ProInfo
 {
@@ -19,9 +19,11 @@ struct PersonnelInfo
     int Age;
     string City;
     string Country;
-    enum Gender;
     bool Married;
     ProInfo pro;
+    enGender gender;
+    enMaritalStatus maritalstatus;
+
 
 };
 
@@ -37,14 +39,13 @@ int main()
     Person1.Country = "France";
     Person1.pro.MonthlySalary = 1000;
     Person1.pro.YearlySalary = 1000 * 12;
+    Person1.gender = enGender::Male;
+    Person1.maritalstatus = Single;
 
+    /*
+    gender = Gender::Male;
 
-    MaritalStatus status;
-    Gender myGender;
-
-    myGender = Gender::Male;
-
-    status = MaritalStatus::Single;
+    status = MaritalStatus::Single;*/
 
     cout << "******************************** " << endl;
 
@@ -55,8 +56,8 @@ int main()
 
     cout << "MonthlySalary: " << Person1.pro.MonthlySalary << endl;
     cout << "YearlySalary: " << Person1.pro.YearlySalary << endl;
-    cout << "Gender: " << myGender << endl;
-    cout << "Married: " << status << endl;
+    cout << "Gender: " << Person1.gender << endl;
+    cout << "Married: " << Person1.maritalstatus << endl;
 
     cout << "********************************" << endl;
 
