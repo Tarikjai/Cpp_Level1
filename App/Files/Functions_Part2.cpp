@@ -7,8 +7,7 @@ using namespace std;
 
 void mySumProcedure()
 {
-	int Number1;
-	int Number2;
+	int Number1, Number2;
 
 	cout << "Please enter Number1?" << endl;
 	cin >> Number1;
@@ -23,8 +22,7 @@ void mySumProcedure()
 
 int mySumFunction()
 {
-	int Number1;
-	int Number2;
+	int Number1, Number2;
 
 	cout << "Please enter Number1?" << endl;
 	cin >> Number1;
