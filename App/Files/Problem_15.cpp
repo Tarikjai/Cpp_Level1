@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void readAB(int&a, int&b)
+void readAB(int& a, int& b)
 {
 	cout << "Please enter a: " << endl;
 	cin >> a;
