@@ -18,7 +18,7 @@ void mySumProcedure()
 	cin >> Number2;
 	cout << "************************" << endl;
 	cout << Number1 + Number2 << endl;
-	
+
 }
 
 int mySumFunction()
@@ -42,6 +42,6 @@ int mySumFunction()
 int main()
 {
 	mySumProcedure();
-	cout  << endl;
+	cout << endl;
 	cout << mySumFunction();
 }
