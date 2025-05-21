@@ -54,5 +54,11 @@
     <ClCompile Include="Problem_15.cpp">
       <Filter>NewFilter1</Filter>
     </ClCompile>
+    <ClCompile Include="Problem_16.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_18.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void readr(float&r)
+void readr(float& r)
 {
 	cout << "Please enter r: " << endl;
 	cin >> r;
@@ -20,7 +20,6 @@ int main()
 {
 	float p = 3.14;
 	float r;
-
 	readr(r);
 	cout << CercleArea(p, r) << endl;
 }
