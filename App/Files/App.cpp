@@ -1,27 +1,40 @@
+// Example program
 #include <iostream>
+#include <cmath> 
 #include <string>
 using namespace std;
 
-
-void readr(float& N)
+void readTime(int& days, int& hours, int& minutes, int& seconds)
 {
-	cout << "Please enter N: " << endl;
-	cin >> N;
+
+    cout << "Please enter the days  : \n";
+    cin >> days;
+
+    cout << "Please enter the hours  : \n";
+    cin >> hours;
+
+    cout << "Please enter the minutes  : \n";
+    cin >> minutes;
+
+    cout << "Please enter the seconds  : \n";
+    cin >> seconds;
 }
 
-void Outputs(float N)
+
+
+int transFunction(int  days, int hours, int minutes, int seconds)
 {
-	cout << pow(N, 2) << endl;
-	cout << pow(N, 3) << endl;
-	cout << pow(N, 4) << endl;
+    int secondsInDay = 60 * 60 * 24;
+    return (days * secondsInDay) + (hours * (60 * 60)) + (minutes * 60) + seconds;
 }
 
 
 
 int main()
 {
-	
-	float N;
-	readr(N);
-	Outputs(N);
+    int days, hours, minutes, seconds;
+
+    readTime(days, hours, minutes, seconds);
+   
+    cout << transFunction(days, hours, minutes, seconds);
 }
