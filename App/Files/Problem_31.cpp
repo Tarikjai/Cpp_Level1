@@ -20,7 +20,7 @@ void Outputs(float N)
 
 int main()
 {
-	
+
 	float N;
 	readr(N);
 	Outputs(N);
