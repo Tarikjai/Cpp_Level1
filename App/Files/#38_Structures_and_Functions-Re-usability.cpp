@@ -23,7 +23,7 @@ struct PersonnelInfo {
 void readInfo(PersonnelInfo& PersInfo)
 {
 	cout << "Please enter your Name: " << endl;
-	cin >> PersInfo.Name;
+	getline(cin, PersInfo.Name);
 	cout << "Please enter your Age: " << endl;
 	cin >> PersInfo.Age;
 	cout << "Please enter your City: " << endl;
@@ -39,6 +39,7 @@ void readInfo(PersonnelInfo& PersInfo)
 	cin >> PersInfo.Gender;
 	cout << "Are you Married: " << endl;
 	cin >> PersInfo.Married;
+	cout << '\n';
 }
 
 void printInfo(PersonnelInfo& PersInfo)

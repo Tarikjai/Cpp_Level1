@@ -21,25 +21,25 @@
     <ClCompile Include="App.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="#Relational_operator.cpp">
+    <ClCompile Include="#24_Relational_operator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="#Structure.cpp">
+    <ClCompile Include="#27_Structure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="enum.cpp">
+    <ClCompile Include="#28_Enum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Strings.cpp">
+    <ClCompile Include="#31_Strings.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Functions_Part1.cpp">
+    <ClCompile Include="#32_Functions_Part1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Functions_Part2.cpp">
+    <ClCompile Include="#34_Functions_Part2_Functions_Procedures.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Functions_Part3_with_parameters.cpp">
+    <ClCompile Include="#35_Functions_Part3_with_parameters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Problem_1.cpp">
@@ -83,6 +83,9 @@
     </ClCompile>
     <ClCompile Include="Problem_42.cpp">
       <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="#38_Structures_and_Functions-Re-usability.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
