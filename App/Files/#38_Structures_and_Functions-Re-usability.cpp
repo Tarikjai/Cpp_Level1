@@ -20,7 +20,7 @@ struct PersonnelInfo {
 	bool Married;
 };
 
-void readInfo(PersonnelInfo &PersInfo)
+void readInfo(PersonnelInfo& PersInfo)
 {
 	cout << "Please enter your Name: " << endl;
 	cin >> PersInfo.Name;
@@ -44,7 +44,7 @@ void readInfo(PersonnelInfo &PersInfo)
 void printInfo(PersonnelInfo& PersInfo)
 {
 	cout << "*********************************" << endl;
-	cout << "Name: " <<PersInfo.Name << endl;
+	cout << "Name: " << PersInfo.Name << endl;
 	cout << "Age: " << PersInfo.Age << endl;
 	cout << "City: " << PersInfo.City << endl;
 	cout << "Country: " << PersInfo.Country << endl;
