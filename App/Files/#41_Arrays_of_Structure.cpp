@@ -20,58 +20,43 @@ struct PersonInfo
 	int Phone;
 };
 
-void readInfo(PersonInfo Pinfo[])
+void readInfo(PersonInfo& Pinfo)
 {
 	cout << "Type your FirstName: " << endl;
-	cin >> Pinfo[0].FirstName;
+	cin >> Pinfo.FirstName;
 	cout << "Type your LastName: " << endl;
-	cin >> Pinfo[0].LastName;
+	cin >> Pinfo.LastName;
 	cout << "Type your Age: " << endl;
-	cin >> Pinfo[0].Age;
+	cin >> Pinfo.Age;
 	cout << "Type your Phone: " << endl;
-	cin >> Pinfo[0].Phone;
+	cin >> Pinfo.Phone;
 	cout << endl;
 
-	cout << "Type your FirstName: " << endl;
-	cin >> Pinfo[1].FirstName;
-	cout << "Type your LastName: " << endl;
-	cin >> Pinfo[1].LastName;
-	cout << "Type your Age: " << endl;
-	cin >> Pinfo[1].Age;
-	cout << "Type your Phone: " << endl;
-	cin >> Pinfo[1].Phone;
-	cout << endl;
-
-
 }
 
-void printInfo(PersonInfo Pinfo[])
+void printInfo(PersonInfo& Pinfo)
 {
 	cout << "***************************" << endl;
-	cout << "FirstName: " << Pinfo[0].FirstName << endl;
-	cout << "LastName: " << Pinfo[0].LastName << endl;
-	cout << "Age: " << Pinfo[0].Age << endl;
-	cout << "Phone: " << Pinfo[0].Phone << endl;
-	cout << "***************************" << endl;
-	cout << "***************************" << endl;
-	cout << "FirstName: " << Pinfo[1].FirstName << endl;
-	cout << "LastName: " << Pinfo[1].LastName << endl;
-	cout << "Age: " << Pinfo[1].Age << endl;
-	cout << "Phone: " << Pinfo[1].Phone << endl;
+	cout << "FirstName: " << Pinfo.FirstName << endl;
+	cout << "LastName: " << Pinfo.LastName << endl;
+	cout << "Age: " << Pinfo.Age << endl;
+	cout << "Phone: " << Pinfo.Phone << endl;
 	cout << "***************************" << endl;
 
 }
 
-void readAll(PersonInfo Pinfo[])
+void readAll(PersonInfo Pinfo[2])
 {
-	readInfo(Pinfo);
+	readInfo(Pinfo[0]);
+	readInfo(Pinfo[1]);
 
 
 }
 
-void printAll(PersonInfo Pinfo[])
+void printAll(PersonInfo Pinfo[2])
 {
-	printInfo(Pinfo);
+	printInfo(Pinfo[0]);
+	printInfo(Pinfo[1]);
 }
 
 int main()
