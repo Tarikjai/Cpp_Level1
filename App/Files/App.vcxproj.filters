@@ -9,83 +9,86 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Problems_solving">
+      <UniqueIdentifier>{71cf1a42-a61f-4ce9-a6a3-f7807ebd732d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Courses">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="NewFilter1">
-      <UniqueIdentifier>{71cf1a42-a61f-4ce9-a6a3-f7807ebd732d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="#24_Relational_operator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="#27_Structure.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="#28_Enum.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="#31_Strings.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="#32_Functions_Part1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="#34_Functions_Part2_Functions_Procedures.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="#35_Functions_Part3_with_parameters.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Problem_1.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_2.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_14.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_15.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_16.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_18.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_19.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_20.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_21.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_22.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_23.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_31.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_32.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_42.cpp">
-      <Filter>NewFilter1</Filter>
+      <Filter>Problems_solving</Filter>
+    </ClCompile>
+    <ClCompile Include="#24_Relational_operator.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#27_Structure.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#28_Enum.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#31_Strings.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#32_Functions_Part1.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#34_Functions_Part2_Functions_Procedures.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#35_Functions_Part3_with_parameters.cpp">
+      <Filter>Courses</Filter>
     </ClCompile>
     <ClCompile Include="#38_Structures_and_Functions-Re-usability.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#39_Arrays.cpp">
+      <Filter>Courses</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
