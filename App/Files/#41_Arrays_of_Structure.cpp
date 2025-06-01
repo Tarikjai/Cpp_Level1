@@ -31,7 +31,7 @@ void readInfo(PersonInfo Pinfo[])
 	cout << "Type your Phone: " << endl;
 	cin >> Pinfo[0].Phone;
 	cout << endl;
-	
+
 	cout << "Type your FirstName: " << endl;
 	cin >> Pinfo[1].FirstName;
 	cout << "Type your LastName: " << endl;
@@ -40,9 +40,9 @@ void readInfo(PersonInfo Pinfo[])
 	cin >> Pinfo[1].Age;
 	cout << "Type your Phone: " << endl;
 	cin >> Pinfo[1].Phone;
-	cout  << endl;
+	cout << endl;
 
-	
+
 }
 
 void printInfo(PersonInfo Pinfo[])
@@ -59,13 +59,13 @@ void printInfo(PersonInfo Pinfo[])
 	cout << "Age: " << Pinfo[1].Age << endl;
 	cout << "Phone: " << Pinfo[1].Phone << endl;
 	cout << "***************************" << endl;
-	
+
 }
 
 void readAll(PersonInfo Pinfo[])
 {
 	readInfo(Pinfo);
-	
+
 
 }
 
@@ -77,7 +77,7 @@ void printAll(PersonInfo Pinfo[])
 int main()
 {
 	PersonInfo Pinfo[2];
-	readAll(Pinfo) ;
+	readAll(Pinfo);
 	printAll(Pinfo);
 
 }

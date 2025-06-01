@@ -93,5 +93,8 @@
     <ClCompile Include="#40_Arrays_with_Functions.cpp">
       <Filter>Courses</Filter>
     </ClCompile>
+    <ClCompile Include="#41_Arrays_of_Structure.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
