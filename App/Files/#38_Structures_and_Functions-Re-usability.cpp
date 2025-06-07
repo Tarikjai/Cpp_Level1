@@ -8,7 +8,6 @@ struct ProfessionelInfo {
 	string WorkPlace;
 };
 
-
 struct PersonnelInfo {
 	string Name;
 	int Age;
