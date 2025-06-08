@@ -96,8 +96,8 @@
     <ClCompile Include="#41_Arrays_of_Structure.cpp">
       <Filter>Courses</Filter>
     </ClCompile>
-    <ClCompile Include="#42_IF_IF..ELSE Statement.cpp">
-      <Filter>Courses</Filter>
+    <ClCompile Include="Problem_4.cpp">
+      <Filter>Problems_solving</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
