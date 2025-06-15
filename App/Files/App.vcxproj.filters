@@ -114,5 +114,8 @@
     <ClCompile Include="Problem_33.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
+    <ClCompile Include="Problem_34.cpp">
+      <Filter>Problems_solving</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -20,8 +20,8 @@ void printResult(int TotalSales)
 	else if (TotalSales > 100000 && TotalSales <= 500000)
 		cout << (3 * TotalSales) / 100;
 	else if (TotalSales > 50000 && TotalSales <= 100000)
-		cout << ( 5 * TotalSales) / 100;
-	else  
+		cout << (5 * TotalSales) / 100;
+	else
 		cout << "0";
 }
 
