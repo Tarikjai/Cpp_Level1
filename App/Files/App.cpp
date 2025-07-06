@@ -18,12 +18,29 @@ int  readAnswer(int &c)
 	cout << "Your choice ? " << endl;
 	cin >> c;
 
+
 	return c;
+
 }
 
 void printResult(int c)
 {
-	cout << c << endl;
+	enColor color;
+
+	color = (enColor)c;
+
+	if (color == enColor::Red) {
+		  system("color 4F");
+	} 
+	else if (color == enColor::Blue) {
+		  system("color 1F");
+	}
+	else if (color == enColor::Green) {
+		  system("color 2F") ;
+	}
+	else if (color == enColor::Yellow) {
+		 system("color 6F");
+	}
 }
 
 
@@ -33,6 +50,5 @@ int main()
 	int c;
 	readAnswer(c);
 	printResult(c);
-
 
 }
