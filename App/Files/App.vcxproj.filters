@@ -126,5 +126,11 @@
     <ClCompile Include="#44_Enums with IF Statements.cpp">
       <Filter>Courses</Filter>
     </ClCompile>
+    <ClCompile Include="Problem_36.cpp">
+      <Filter>Problems_solving</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_44_switch.cpp">
+      <Filter>Problems_solving</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

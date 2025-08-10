@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 void readAnswer(int& Number1, int& Number2, char& OperationType)
 {
 	cout << "Please insert Number1: ";
@@ -15,8 +14,6 @@ void readAnswer(int& Number1, int& Number2, char& OperationType)
 
 void printResult(int Number1, int Number2, char OperationType)
 {
-
-
 	switch (OperationType)
 	{
 	case '+':
@@ -31,12 +28,10 @@ void printResult(int Number1, int Number2, char OperationType)
 	case '/':
 		cout << Number1 / Number2;
 		break;
-	defaut:
+	default:
 		cout << "Try again";
 	}
 }
-
-
 
 int main()
 {
@@ -44,6 +39,4 @@ int main()
 	char OperationType;
 	readAnswer(Number1, Number2, OperationType);
 	printResult(Number1, Number2, OperationType);
-
-
 }
