@@ -20,12 +20,9 @@ float printAVGgrade(float Grades[])
 	return (Grades[0] + Grades[1] + Grades[2]) / 3;
 }
 
-
-
 int main()
 {
 	float Grades[3];
 	readGrade(Grades);
 	cout << printAVGgrade(Grades);
-
-}
+} 
