@@ -135,7 +135,10 @@
     <ClCompile Include="Problem_45_switch.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
-    <ClCompile Include="#46 _Nested Functions with Enums.cpp">
+    <ClCompile Include="#46 _Nested Functions with Enums_weekdays.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="#46 _Nested Functions with Enums_months.cpp">
       <Filter>Courses</Filter>
     </ClCompile>
   </ItemGroup>

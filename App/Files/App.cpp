@@ -3,93 +3,91 @@
 using namespace std;
 
 
-enum enWeekday {
-	sun = 1,
-	mon = 2,
-	tue = 3,
-	wed = 4,
-	thu = 5,
-	fri = 6,
-	sat = 7
+
+enum enMonthDay {
+    Janvier = 1,
+    Fevrier = 2,
+    Mars = 3,
+    Avril = 4,
+    Mai = 5,
+    Juin = 6,
+    Juillet = 7,
+    Aout = 8,
+    Septembre = 9,
+    Octobre = 10,
+    Novembre = 11,
+    Decembre = 12
 };
 
-void ShowWeekday()
+void ShowMonth()
 {
-	cout << "********************" << endl;
-	cout << "     Week days    " << endl;
-	cout << "********************" << endl;
-	cout << " * 1 : Sunday * "<< endl;
-	cout << " * 1 : Sunday * " << endl;
-	cout << " * 2 : Monday * " << endl;
-	cout << " * 3 : Tuesday * " << endl;
-	cout << " * 4 : Wednesday * " << endl;
-	cout << " * 5 : Thursday * " << endl;
-	cout << " * 6 : Friday * " << endl;
-	cout << " * 7 : Saturday * " << endl;
-	cout << "********************" << endl;
-	cout << "Please choose a day Number: " << endl;
+    cout << "********************" << endl;
+    cout << "       Months       " << endl;
+    cout << "********************" << endl;
+    cout << " * 1 : Janvier * " << endl;
+    cout << " * 2 : Fevrier * " << endl;
+    cout << " * 3 : Mars * " << endl;
+    cout << " * 4 : Avril * " << endl;
+    cout << " * 5 : Mai * " << endl;
+    cout << " * 6 : Juin * " << endl;
+    cout << " * 7 : Juillet * " << endl;
+    cout << " * 8 : Aout * " << endl;
+    cout << " * 9 : Septembre * " << endl;
+    cout << " * 10 : Octobre * " << endl;
+    cout << " * 11 : Novembre * " << endl;
+    cout << " * 12 : Decembre * " << endl;
+    cout << "********************" << endl;
+    cout << "Please choose a month Number: " << endl;
 }
 
-enWeekday selectWeekDay()
+enMonthDay ReadMonth()
 {
-	enWeekday WeekDay;
-	
-	int WD;
-	cin >> WD;
+    enMonthDay  monthDay;
+    int MD;
+    cin >> MD;
+    return (enMonthDay)MD;
 
-	return (enWeekday)WD;
-	 
+} 
 
+string printResult(enMonthDay  monthDay)
+{
+    switch (monthDay)
+    {
+    case enMonthDay::Janvier:
+        return "Janvier\n";
+    case enMonthDay::Fevrier:
+        return "Février\n";
+    case enMonthDay::Mars:
+        return "Mars\n";
+    case enMonthDay::Avril:
+        return "Avril\n";
+    case enMonthDay::Mai:
+        return "Mai\n";
+    case enMonthDay::Juin:
+        return "Juin\n";
+    case enMonthDay::Juillet:
+        return "Juillet\n";
+    case enMonthDay::Aout:
+        return "Août\n";
+    case enMonthDay::Septembre:
+        return "Septembre\n";
+    case enMonthDay::Octobre:
+        return "Octobre\n";
+    case enMonthDay::Novembre:
+        return "Novembre\n";
+    case enMonthDay::Decembre:
+        return "Décembre\n";
+    default:
+        return "Invalid Month\n";
+
+
+    }
 }
 
-string DisplayResult(enWeekday WeekDay)
-{
-	switch (WeekDay)
-	{
-	case enWeekday::sun:
-		return "Sunday";
-		break;
-	case enWeekday::mon:
-		return "Monday";
-		break;
-	case enWeekday::tue:
-		return "Tuesday";
-		break;
-	case enWeekday::wed:
-		return "Wednesday";
-		break;
-	case enWeekday::thu:
-		return "Thursday";
-		break;
-	case enWeekday::fri:
-		return "Friday";
-		break;
-	case enWeekday::sat:
-		return "Saturday";
-		break;
-	default:
-		return "Invalid Day";
-	}
-}
 
-
-/*
-int readmonth(int& month)
-{
-	cout << "Please enter the month number: ";
-	cin >> month;
-	return month;
-}
-
-void print(int month)
-{
-	
-}
-*/
 int main()
 {
-	ShowWeekday();
-		
-	cout << DisplayResult(selectWeekDay());
+    ShowMonth();
+    cout << "You choose " << printResult(ReadMonth());
 
 }
