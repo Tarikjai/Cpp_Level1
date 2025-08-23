@@ -90,6 +90,6 @@ int main()
 {
 	ShowWeekday();
 		
-	selectWeekDay();
+	cout << DisplayResult(selectWeekDay());
 
 }
