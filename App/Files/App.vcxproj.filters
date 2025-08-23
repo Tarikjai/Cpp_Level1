@@ -135,5 +135,8 @@
     <ClCompile Include="Problem_45_switch.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
+    <ClCompile Include="#46 _Nested Functions with Enums.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

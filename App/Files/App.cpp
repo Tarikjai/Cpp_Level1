@@ -3,6 +3,77 @@
 using namespace std;
 
 
+enum enWeekday {
+	sun = 1,
+	mon = 2,
+	tue = 3,
+	wed = 4,
+	thu = 5,
+	fri = 6,
+	sat = 7
+};
+
+void ShowWeekday()
+{
+	cout << "********************" << endl;
+	cout << "     Week days    " << endl;
+	cout << "********************" << endl;
+	cout << " * 1 : Sunday * "<< endl;
+	cout << " * 1 : Sunday * " << endl;
+	cout << " * 2 : Monday * " << endl;
+	cout << " * 3 : Tuesday * " << endl;
+	cout << " * 4 : Wednesday * " << endl;
+	cout << " * 5 : Thursday * " << endl;
+	cout << " * 6 : Friday * " << endl;
+	cout << " * 7 : Saturday * " << endl;
+	cout << "********************" << endl;
+	cout << "Please choose a day Number: " << endl;
+}
+
+enWeekday selectWeekDay()
+{
+	enWeekday WeekDay;
+	
+	int WD;
+	cin >> WD;
+
+	return (enWeekday)WD;
+	 
+
+}
+
+string DisplayResult(enWeekday WeekDay)
+{
+	switch (WeekDay)
+	{
+	case enWeekday::sun:
+		return "Sunday";
+		break;
+	case enWeekday::mon:
+		return "Monday";
+		break;
+	case enWeekday::tue:
+		return "Tuesday";
+		break;
+	case enWeekday::wed:
+		return "Wednesday";
+		break;
+	case enWeekday::thu:
+		return "Thursday";
+		break;
+	case enWeekday::fri:
+		return "Friday";
+		break;
+	case enWeekday::sat:
+		return "Saturday";
+		break;
+	default:
+		return "Invalid Day";
+	}
+}
+
+
+/*
 int readmonth(int& month)
 {
 	cout << "Please enter the month number: ";
@@ -12,52 +83,13 @@ int readmonth(int& month)
 
 void print(int month)
 {
-	switch (month)
-	{
-	case 1:
-		cout << "January";
-		break;
-	case 2:
-		cout << "February";
-		break;
-	case 3:
-		cout << "March";
-		break;
-	case 4:
-		cout << "April";
-		break;
-	case 5:
-		cout << "May";
-		break;
-	case 6:
-		cout << "June";
-		break;
-	case 7:
-		cout << "July";
-		break;
-	case 8:
-		cout << "August";
-		break;
-	case 9:
-		cout << "September";
-		break;
-	case 10:
-		cout << "October";
-		break;
-	case 11:
-		cout << "November";
-		break;
-	case 12:
-		cout << "December ";
-		break;
-	default:
-		cout << "Invalid month number";
-	}
+	
 }
-
+*/
 int main()
 {
-	int month;
-	readmonth(month);
-	print(month);
+	ShowWeekday();
+		
+	selectWeekDay();
+
 }
