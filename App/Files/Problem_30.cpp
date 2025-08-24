@@ -11,10 +11,10 @@ int readN(int& N)
 
 void printNumbers(int N, int sum)
 {
-	for (int i = N ; i >= 1; i--)
+	for (int i = N; i >= 1; i--)
 	{
 		sum *= i;
-			
+
 	}
 	cout << sum << endl;
 }
@@ -28,5 +28,5 @@ int main()
 
 	cout << endl;
 
-	printNumbers(N , sum);
+	printNumbers(N, sum);
 }
