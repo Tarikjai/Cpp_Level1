@@ -3,9 +3,16 @@
 using namespace std;
 
 
-void printNumbers()
+int readN(int& N)
 {
-	for (int i = 1; i <= 10; i++)
+	cout << "Please enter N: " << endl;
+	cin >> N;
+	return N;
+}
+
+void printNumbers(int N)
+{
+	for (int i = 1; i <= N; i++)
 	{
 		cout << i << endl;
 	}
@@ -14,7 +21,10 @@ void printNumbers()
 
 int main()
 {
+	int N;
 
-	printNumbers();
+	readN(N);
+	cout << endl;
+	printNumbers(N);
 
 }
