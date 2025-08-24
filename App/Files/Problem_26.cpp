@@ -10,11 +10,11 @@ void printNumbers()
 		cout << i << endl;
 	}
 }
- 
+
 
 int main()
 {
- 
+
 	printNumbers();
 
 }
