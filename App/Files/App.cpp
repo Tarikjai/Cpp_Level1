@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 int readN(int& N)
 {
 	cout << "Please enter N: " << endl;
@@ -10,13 +9,11 @@ int readN(int& N)
 	return N;
 }
 
-
-
 void printNumbers(int N, int sum)
 {
 	for (int i =1 ; i <= N ; i++)
 	{
-		if (i % 2 == 1)
+		if (i % 2 == 0)
 		{
 			sum += i;
 		}
@@ -24,12 +21,14 @@ void printNumbers(int N, int sum)
 	cout << sum << endl;
 }
 
-
 int main()
 {
 	int N;
 	int sum = 0;
+
 	readN(N);
+
 	cout << endl;
+
 	printNumbers(N , sum);
 }
