@@ -76,7 +76,7 @@ string printResult(enMonthDay  monthDay)
     case enMonthDay::Novembre:
         return "Novembre\n";
     case enMonthDay::Decembre:
-        return "Décembre\n";
+        return "Decembre\n";
     default:
         return "Invalid Month\n";
 
