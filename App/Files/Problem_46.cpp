@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
- 
+
 void smallLetter()
 {
 	for (char i = 65; i <= 90; i++)
@@ -18,7 +18,7 @@ void capitalLetter()
 		cout << i << endl;
 	}
 }
- 
+
 
 int main()
 {
