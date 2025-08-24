@@ -3,26 +3,30 @@
 using namespace std;
 
  
-void smallLetter()
+void readArray(int array[100], int& length)
 {
-	for (char i = 65; i <= 90; i++)
+	cout << "Please type the number of number: " << endl;
+	cin >> length;
+
+	for (int i = 0; i <= length - 1; i++)
 	{
-		cout << i << endl;
+		cout << "Please type number " << i + 1 << endl;
+		cin >> array[i];
 	}
+}
+void printArray()
+{
+
 }
 
-void capitalLetter()
-{
-	for (char i = 97; i <= 122; i++)
-	{
-		cout << i << endl;
-	}
-}
- 
+
+
 
 int main()
 {
-	smallLetter();
-	cout << endl;
-	capitalLetter();
+	int array[100], length = 0;
+
+	readArray(array, length);
+
+	printArray();
 }
