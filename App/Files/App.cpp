@@ -3,30 +3,31 @@
 using namespace std;
 
  
-void readArray(int array[100], int& length)
+void readArray(int array[10],int& length)
 {
-	cout << "Please type the number of number: " << endl;
+	cout << "Saisir le nombre de numero de numeros: " << endl;
 	cin >> length;
 
-	for (int i = 0; i <= length - 1; i++)
+	for (int i = 0; i <= length -1; i++)
 	{
-		cout << "Please type number " << i + 1 << endl;
+		cout << "Merci de saisir le numero: " << i + 1 << endl;
 		cin >> array[i];
 	}
 }
-void printArray()
+
+void printArray(int array[10], int length)
 {
-
+	cout << "Voici la liste des numero composant notre Array: " << endl;
+	for (int i = 0; i <= length - 1; i++)
+	{
+		cout << array[i];
+	}
 }
-
-
-
 
 int main()
 {
-	int array[100], length = 0;
-
+	int array[10], length = 0;
 	readArray(array, length);
-
-	printArray();
+	printArray(array, length);
+	
 }
