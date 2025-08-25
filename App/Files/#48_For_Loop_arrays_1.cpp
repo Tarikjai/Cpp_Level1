@@ -42,12 +42,12 @@ float CalculateAverage(int array[10], int length)
 	{
 		sum += array[i];
 	}
-	return sum / (length );
+	return sum / (length);
 }
 
 int main()
 {
-	int array[10], length = 0 ;
+	int array[10], length = 0;
 
 	readArray(array, length);
 	PrintArray(array, length);
