@@ -1,83 +1,46 @@
-// Example program
-
-/*
-1 proceedure read info of a person
-1 procedure print info of a persone
-
-2 procedure
-	1 procedure that read all structutree array of 2 personne => call the procedure that read  personne
-	1 procedure that print 2 personn => call the procedure that print  1 person */
-
 #include <iostream>
 #include <string>
 using namespace std;
 
-struct PersonInfo
+//void printOne()
+//{
+//	for (char i = 65; i <= 90; i++)
+//	{
+//		for (char j = 65; j <= 90; j++)
+//		{
+//			cout << i << j << endl;
+//		}
+//	}
+//}
+
+//void printOne()
+//{
+//	for (int i = 1; i <= 10; i++)
+//	{
+//		for (int j = 1 ; j <= 10 -i ; j++)
+//		{
+//			cout << "*";
+//			
+//		}
+//		cout << endl;
+//	}
+//}
+
+void print()
 {
-	string FirstName;
-	string LastName;
-	int Age;
-	int Phone;
-};
-
-void readInfo(PersonInfo& Pinfo)
-{
-	cout << "Type your FirstName: " << endl;
-	cin >> Pinfo.FirstName;
-	cout << "Type your LastName: " << endl;
-	cin >> Pinfo.LastName;
-	cout << "Type your Age: " << endl;
-	cin >> Pinfo.Age;
-	cout << "Type your Phone: " << endl;
-	cin >> Pinfo.Phone;
-	cout << endl;
-
-}
-
-void printInfo(PersonInfo& Pinfo)
-{
-	cout << "***************************" << endl;
-	cout << "FirstName: " << Pinfo.FirstName << endl;
-	cout << "LastName: " << Pinfo.LastName << endl;
-	cout << "Age: " << Pinfo.Age << endl;
-	cout << "Phone: " << Pinfo.Phone << endl;
-	cout << "***************************" << endl;
-
-}
-
-void readAll(PersonInfo Pinfo[100], int& length)
-{
-	 
-	cout << "Please enter the number of persons: " << endl;
-	cin >> length;
-
-	for (int i = 0; i <= length -1; i++)
-
+	for (int i = 0 ; i <= 10; i++)
 	{
-		cout << "Please enter person number[" << i+1 << "] info: " << endl;
-		readInfo(Pinfo[i]);
+		for (int j = 1; j <= 10-i; j++)
+		{
+			cout << j << " ";
+		}
+		cout  << endl;
 	}
-	 
-
-
 }
 
-void printAll(PersonInfo Pinfo[100], int length)
-{
-	for (int i = 0; i <= length -1; i++)
-
-	{
-		printInfo(Pinfo[i]);
-	}
- 
-
-}
 
 int main()
 {
-	int length = 0;
-	PersonInfo Pinfo[100];
-	readAll(Pinfo, length);
-	printAll(Pinfo, length);
-
+	print();
+	cout << endl;
 }

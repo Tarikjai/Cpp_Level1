@@ -162,5 +162,8 @@
     <ClCompile Include="#48_For_Loop_arrays_1.cpp">
       <Filter>Courses</Filter>
     </ClCompile>
+    <ClCompile Include="#48_For_Loop_Arrays_2.cpp">
+      <Filter>Courses</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
