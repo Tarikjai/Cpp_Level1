@@ -35,11 +35,23 @@ int sumArray(int array[100], int length)
 	return sum;
 }
 
+float Average(int array[100], int length)
+{
+	int counter = 0;
+
+	for (int i = 0; i <= length - 1; i++)
+	{
+		counter += 1;
+	}
+	return counter;
+}
+
+
 int main()
 {
 	int array[100], length = 0;
 	readArray(array, length);
 	printArray(array, length);
 	cout << "The sum of all the numbers is: " << sumArray(array, length) << endl;
-
+	cout << "The average is: " << sumArray(array, length) / Average(array, length)   ;
 }
