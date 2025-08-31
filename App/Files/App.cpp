@@ -26,19 +26,55 @@ using namespace std;
 //	}
 //}
 
+//void print()
+//{
+//	for (int i = 0 ; i <= 10; i++)
+//	{
+//		for (int j = 1; j <= 10-i; j++)
+//		{
+//			cout << j << " ";
+//		}
+//		cout  << endl;
+//	}
+//}
+
+//void print()
+//{
+//	for (int i = 0; i <= 10; i++)
+//	{
+//		for (int j = 1; j <= i; j++)
+//		{
+//			cout << j << " ";
+//			
+//		}
+//		
+//		cout << endl;
+//	}
+//}
+
+//void print()
+//{
+//	for (char i = 65; i <= 70; i++)
+//	{
+//		for (char j = 65; j <= i; j++)
+//		{
+//			cout << j << " ";
+//		}
+//		cout << endl;
+//	}
+//}
+
 void print()
 {
-	for (int i = 0 ; i <= 10; i++)
+	for (int i = 1; i <= 10; i++)
 	{
-		for (int j = 1; j <= 10-i; j++)
+		for (int j = i; j <=10 ; j++)
 		{
-			cout << j << " ";
+			cout << j<< " "; ;
 		}
 		cout  << endl;
 	}
 }
-
-
 int main()
 {
 	print();
