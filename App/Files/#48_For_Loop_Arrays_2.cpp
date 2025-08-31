@@ -47,29 +47,29 @@ void printInfo(PersonInfo& Pinfo)
 
 void readAll(PersonInfo Pinfo[100], int& length)
 {
-	 
+
 	cout << "Please enter the number of persons: " << endl;
 	cin >> length;
 
-	for (int i = 0; i <= length -1; i++)
+	for (int i = 0; i <= length - 1; i++)
 
 	{
-		cout << "Please enter person number[" << i+1 << "] info: " << endl;
+		cout << "Please enter person number[" << i + 1 << "] info: " << endl;
 		readInfo(Pinfo[i]);
 	}
-	 
+
 
 
 }
 
 void printAll(PersonInfo Pinfo[100], int length)
 {
-	for (int i = 0; i <= length -1; i++)
+	for (int i = 0; i <= length - 1; i++)
 
 	{
 		printInfo(Pinfo[i]);
 	}
- 
+
 
 }
 
