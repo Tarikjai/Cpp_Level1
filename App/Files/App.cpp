@@ -2,55 +2,32 @@
 #include <string>
 using namespace std;
 
-void readArray(int array[10], int& length)
+
+void readArray(int array[100],  int& length)
 {
-	cout << "Please insert the number desired: " << endl;
+	cout << "Merci de saisir le nombre de numeros: " << endl;
 	cin >> length;
 
-	for (int i = 0; i <= length - 1; i++)
+	for (int i = 0; i <= length -1 ; i++)
 	{
-		cout << "Please insert the [" << i + 1 << "] number: " << endl;
+		cout << "Merci de saisir le numero " << i + 1 << endl;
 		cin >> array[i];
 	}
-
 }
 
-void PrintArray(int array[10], int length)
+void printArray(int array[100], int length)
 {
 	for (int i = 0; i <= length - 1; i++)
 	{
-		cout << "Number [" << i + 1 << "] is: " << array[i] << endl;
+		cout << "Voici le numero [" << i + 1 << "]: " << array[i] << endl;
+		 
 	}
 }
 
-int calculateSum(int array[10], int length)
-{
-	int sum = 0;
-	for (int i = 0; i <= length - 1; i++)
-	{
-		sum += array[i];
-	}
-
-	return sum;
-}
-
-float CalculateAverage(int array[10], int length)
-{
-	int sum = 0;
-	int average = 0;
-	for (int i = 0; i <= length - 1; i++)
-	{
-		sum += array[i];
-	}
-	return sum / (length );
-}
 
 int main()
 {
-	int array[10], length = 0 ;
-
+	int array[100], length = 0;
 	readArray(array, length);
-	PrintArray(array, length);
-	cout << "Sum is: " << calculateSum(array, length) << endl;
-	cout << "Average is: " << CalculateAverage(array, length) << endl;
+	printArray(array, length);
 }
