@@ -12,11 +12,11 @@ int input(int& N)
 
 void print(int N)
 {
-	int i = 1;
-	while (i <= N)
+	int i = N;
+	while (i >= 1)
 	{
 		cout << i << endl;
-		i++;
+		i--;
 	}
 }
 
