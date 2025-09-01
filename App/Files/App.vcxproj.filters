@@ -141,7 +141,7 @@
     <ClCompile Include="#46 _Nested Functions with Enums_months.cpp">
       <Filter>Courses</Filter>
     </ClCompile>
-    <ClCompile Include="Problem_26.cpp">
+    <ClCompile Include="Problem_26_1.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_27.cpp">
@@ -167,6 +167,9 @@
     </ClCompile>
     <ClCompile Include="#49_Nested_For_Loops.cpp">
       <Filter>Courses</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_26_2.cpp">
+      <Filter>Problems_solving</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
