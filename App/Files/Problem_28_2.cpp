@@ -11,9 +11,9 @@ void input(int& N)
 
 int sumFunction(int N)
 {
-	int i = 0, sum = 0;
+	int i = 1, sum = 0;
 
-	while (i <= N && i % 2 == 0)
+	while (i <= N && i % 2 == 1)
 	{
 		sum += i;
 		i += 2;

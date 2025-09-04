@@ -2,28 +2,33 @@
 #include <string>
 using namespace std;
 
-
-void input(int& N)
+int readN(int& N)
 {
-	cout << "Please insert N: ";
+	cout << "Please enter N: " << endl;
 	cin >> N;
+	return N;
 }
 
-int sumFunction(int N)
+void printNumbers(int N, int sum)
 {
-	int i = 1, sum = 0;
-
-	while (i <= N && i % 2 == 1)
+	for (int i = 1; i <= N; i++)
 	{
-		sum += i;
-		i += 2;
+		if (i % 2 == 1)
+		{
+			sum += i;
+		}
 	}
-	return sum;
+	cout << sum << endl;
 }
 
 int main()
 {
-	int N = 0;
-	input(N);
-	cout << sumFunction(N);
+	int N;
+	int sum = 0;
+
+	readN(N);
+
+	cout << endl;
+
+	printNumbers(N, sum);
 }
