@@ -147,10 +147,10 @@
     <ClCompile Include="Problem_27_1.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
-    <ClCompile Include="Problem_28.cpp">
+    <ClCompile Include="Problem_28_1.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
-    <ClCompile Include="Problem_29.cpp">
+    <ClCompile Include="Problem_29_1.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_30.cpp">
@@ -174,7 +174,10 @@
     <ClCompile Include="Problem_27_2.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
-    <ClCompile Include="Problem_28_1.cpp">
+    <ClCompile Include="Problem_28_2.cpp">
+      <Filter>Problems_solving</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_29_2.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
   </ItemGroup>
