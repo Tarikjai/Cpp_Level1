@@ -5,20 +5,26 @@ using namespace std;
 
 void input(int& N)
 {
+
 	cout << "Please insert N: ";
 	cin >> N;
+	while (N <= 1)
+	{
+		cout << "Please insert N: ";
+		cin >> N;
+	}
+
 }
 
 int Factorial(int N)
 {
-	int sum =0;
+	int i = N - 1, sum = N;
 
-	
-	while (N != -99)
+
+	while (i > 1)
 	{
-
-		sum += N;
-		input(N);
+		sum *= i;
+		i--;
 	}
 	return sum;
 }
