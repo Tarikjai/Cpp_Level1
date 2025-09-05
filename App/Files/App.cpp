@@ -13,10 +13,8 @@ int Factorial(int N)
 {
 	int sum =0;
 
-	
 	while (N != -99)
 	{
-
 		sum += N;
 		input(N);
 	}
