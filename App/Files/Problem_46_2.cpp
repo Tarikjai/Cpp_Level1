@@ -9,7 +9,7 @@ int main()
 	char N = 65;
 	while (N <= 90)
 	{
-		cout << N <<endl;
+		cout << N << endl;
 		N++;
 	}
 }

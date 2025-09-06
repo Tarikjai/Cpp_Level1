@@ -156,7 +156,7 @@
     <ClCompile Include="Problem_30.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
-    <ClCompile Include="Problem_46.cpp">
+    <ClCompile Include="Problem_46_1.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="#48_For_Loop_arrays_1.cpp">
@@ -184,6 +184,9 @@
       <Filter>Problems_solving</Filter>
     </ClCompile>
     <ClCompile Include="Problem_30_1.cpp">
+      <Filter>Problems_solving</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem_46_2.cpp">
       <Filter>Problems_solving</Filter>
     </ClCompile>
   </ItemGroup>
