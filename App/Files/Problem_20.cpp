@@ -11,7 +11,7 @@ void readr(float& a)
 
 float CercleArea(float p, float a)
 {
-	return (p * (a * a)) / 4;
+	return (p * pow(a, 2)) / 4;
 
 }
 
