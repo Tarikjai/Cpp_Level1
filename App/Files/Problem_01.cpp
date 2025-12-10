@@ -6,9 +6,7 @@ using namespace std;
 
 void PrintName()
 {
-	 
 	cout << "Tarik";
-
 }
 
 
