@@ -3,7 +3,6 @@
 #include <iostream>
 using namespace std;
 
-
 struct ProInfo
 {
     int MonthlySalary;
