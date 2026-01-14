@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 enum enMonthDay {
     Janvier = 1,
     Fevrier = 2,
@@ -56,7 +55,7 @@ string printResult(enMonthDay  monthDay)
     case enMonthDay::Janvier:
         return "Janvier\n";
     case enMonthDay::Fevrier:
-        return "Février\n";
+        return "FÃ©vrier\n";
     case enMonthDay::Mars:
         return "Mars\n";
     case enMonthDay::Avril:
@@ -68,7 +67,7 @@ string printResult(enMonthDay  monthDay)
     case enMonthDay::Juillet:
         return "Juillet\n";
     case enMonthDay::Aout:
-        return "Août\n";
+        return "AoÃ»t\n";
     case enMonthDay::Septembre:
         return "Septembre\n";
     case enMonthDay::Octobre:
