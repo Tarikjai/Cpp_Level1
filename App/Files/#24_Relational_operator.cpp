@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 void readAnswer(int& A, int& B)
 {
 
