@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-
 enum enWeekday {
 	sun = 1,
 	mon = 2,
