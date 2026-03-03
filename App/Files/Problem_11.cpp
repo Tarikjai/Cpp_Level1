@@ -4,7 +4,6 @@ using namespace std;
 
 void readInput(int& Mark1, int& Mark2, int& Mark3)
 {
-
 	cout << "Please insert input1: " << endl;
 	cin >> Mark1;
 
