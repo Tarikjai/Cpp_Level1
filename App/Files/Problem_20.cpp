@@ -7,6 +7,7 @@ void readr(float& a)
 {
 	cout << "Please enter r: " << endl;
 	cin >> a;
+	
 }
 
 float CercleArea(float p, float a)
