@@ -9,8 +9,6 @@ struct ProInfo
     int MonthlySalary;
     int YearlySalary;
 };
-
-
 struct PersonnelInfo
 {
     string Name;
